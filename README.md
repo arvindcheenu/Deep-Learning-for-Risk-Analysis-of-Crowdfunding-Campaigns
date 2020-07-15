@@ -1,0 +1,2 @@
+# Deep-Learning-for-Risk-Analysis-of-Crowdfunding-Campaigns
+A project that extrapolates three key factors: Enticement, Experience and Engagement; from hidden metrics by analysing Kickstarter projects to further explore the effectiveness of content and its sentiments, rewards and their tangibility, funder belief and founder-funder engagement in its success through analysis of textual and numeric features. To validate the discovered metrics, an Ensemble Deep-Learning model is proposed to predict campaigns with the greatest potential to achieve funding.
