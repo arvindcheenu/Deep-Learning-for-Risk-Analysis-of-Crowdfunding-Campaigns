@@ -1,0 +1,1336 @@
+2020-01-05 11:31:46,798 : INFO : using serial LDA version on this node
+2020-01-05 11:31:46,799 : INFO : running online (multi-pass) LDA training, 2 topics, 50 passes over the supplied corpus of 9310 documents, updating model once every 2000 documents, evaluating perplexity every 9310 documents, iterating 50x with a convergence threshold of 0.001000
+2020-01-05 11:31:46,799 : INFO : PROGRESS: pass 0, at document #2000/9310
+2020-01-05 11:31:47,873 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:47,873 : INFO : topic #0 (0.010): 0.014*"book" + 0.012*"sign" + 0.012*"print" + 0.010*"digital" + 0.009*"sticker" + 0.009*"design" + 0.009*"edition" + 0.007*"shirt" + 0.007*"card" + 0.006*"cover"
+2020-01-05 11:31:47,874 : INFO : topic #1 (0.010): 0.015*"print" + 0.014*"book" + 0.013*"sign" + 0.009*"thank" + 0.007*"digital" + 0.006*"pdf" + 0.005*"art" + 0.005*"cd" + 0.005*"design" + 0.004*"pack"
+2020-01-05 11:31:47,874 : INFO : topic diff=5.348772, rho=1.000000
+2020-01-05 11:31:47,874 : INFO : PROGRESS: pass 0, at document #4000/9310
+2020-01-05 11:31:48,836 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:48,836 : INFO : topic #0 (0.010): 0.015*"book" + 0.012*"print" + 0.011*"design" + 0.011*"digital" + 0.010*"sticker" + 0.010*"sign" + 0.009*"edition" + 0.008*"card" + 0.008*"shirt" + 0.007*"thank"
+2020-01-05 11:31:48,836 : INFO : topic #1 (0.010): 0.014*"book" + 0.013*"print" + 0.012*"sign" + 0.010*"thank" + 0.007*"digital" + 0.006*"album" + 0.006*"cd" + 0.005*"show" + 0.005*"pdf" + 0.005*"credit"
+2020-01-05 11:31:48,836 : INFO : topic diff=0.628886, rho=0.707107
+2020-01-05 11:31:48,836 : INFO : PROGRESS: pass 0, at document #6000/9310
+2020-01-05 11:31:49,762 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:49,763 : INFO : topic #0 (0.010): 0.017*"book" + 0.014*"print" + 0.011*"digital" + 0.011*"sign" + 0.011*"edition" + 0.011*"design" + 0.009*"sticker" + 0.008*"card" + 0.007*"cover" + 0.007*"shirt"
+2020-01-05 11:31:49,763 : INFO : topic #1 (0.010): 0.013*"sign" + 0.013*"book" + 0.011*"print" + 0.011*"thank" + 0.006*"cd" + 0.006*"album" + 0.006*"digital" + 0.005*"shirt" + 0.005*"show" + 0.004*"credit"
+2020-01-05 11:31:49,763 : INFO : topic diff=0.499507, rho=0.577350
+2020-01-05 11:31:49,763 : INFO : PROGRESS: pass 0, at document #8000/9310
+2020-01-05 11:31:50,599 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:50,600 : INFO : topic #0 (0.010): 0.020*"book" + 0.017*"print" + 0.012*"digital" + 0.012*"design" + 0.010*"edition" + 0.010*"sign" + 0.009*"sticker" + 0.008*"game" + 0.008*"card" + 0.007*"pdf"
+2020-01-05 11:31:50,600 : INFO : topic #1 (0.010): 0.013*"sign" + 0.011*"book" + 0.011*"thank" + 0.009*"print" + 0.007*"album" + 0.007*"cd" + 0.006*"shirt" + 0.006*"digital" + 0.005*"credit" + 0.005*"film"
+2020-01-05 11:31:50,600 : INFO : topic diff=0.446550, rho=0.500000
+2020-01-05 11:31:51,294 : INFO : -8.134 per-word bound, 280.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:31:51,294 : INFO : PROGRESS: pass 0, at document #9310/9310
+2020-01-05 11:31:51,785 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:31:51,786 : INFO : topic #0 (0.010): 0.022*"print" + 0.021*"book" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.011*"sign" + 0.010*"sticker" + 0.008*"pdf" + 0.008*"card" + 0.008*"game"
+2020-01-05 11:31:51,786 : INFO : topic #1 (0.010): 0.012*"sign" + 0.011*"thank" + 0.010*"book" + 0.008*"print" + 0.008*"album" + 0.006*"shirt" + 0.006*"digital" + 0.006*"cd" + 0.005*"film" + 0.005*"show"
+2020-01-05 11:31:51,786 : INFO : topic diff=0.450917, rho=0.447214
+2020-01-05 11:31:51,786 : INFO : PROGRESS: pass 1, at document #2000/9310
+2020-01-05 11:31:52,414 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:52,415 : INFO : topic #0 (0.010): 0.022*"print" + 0.022*"book" + 0.013*"digital" + 0.012*"design" + 0.012*"sign" + 0.012*"edition" + 0.011*"sticker" + 0.008*"pdf" + 0.008*"cover" + 0.008*"card"
+2020-01-05 11:31:52,415 : INFO : topic #1 (0.010): 0.012*"sign" + 0.011*"thank" + 0.008*"book" + 0.007*"album" + 0.007*"print" + 0.006*"shirt" + 0.006*"film" + 0.006*"cd" + 0.006*"digital" + 0.005*"credit"
+2020-01-05 11:31:52,415 : INFO : topic diff=0.382270, rho=0.387638
+2020-01-05 11:31:52,415 : INFO : PROGRESS: pass 1, at document #4000/9310
+2020-01-05 11:31:53,091 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:53,091 : INFO : topic #0 (0.010): 0.024*"book" + 0.022*"print" + 0.013*"design" + 0.013*"digital" + 0.012*"edition" + 0.011*"sign" + 0.011*"sticker" + 0.009*"card" + 0.008*"pdf" + 0.008*"cover"
+2020-01-05 11:31:53,091 : INFO : topic #1 (0.010): 0.011*"sign" + 0.011*"thank" + 0.007*"book" + 0.007*"shirt" + 0.007*"album" + 0.006*"film" + 0.006*"cd" + 0.006*"print" + 0.006*"show" + 0.005*"digital"
+2020-01-05 11:31:53,091 : INFO : topic diff=0.416365, rho=0.387638
+2020-01-05 11:31:53,092 : INFO : PROGRESS: pass 1, at document #6000/9310
+2020-01-05 11:31:53,765 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:53,765 : INFO : topic #0 (0.010): 0.026*"book" + 0.023*"print" + 0.013*"digital" + 0.012*"sign" + 0.012*"design" + 0.012*"edition" + 0.010*"sticker" + 0.009*"pdf" + 0.008*"card" + 0.008*"cover"
+2020-01-05 11:31:53,765 : INFO : topic #1 (0.010): 0.011*"sign" + 0.011*"thank" + 0.008*"shirt" + 0.007*"album" + 0.006*"book" + 0.006*"film" + 0.006*"cd" + 0.005*"digital" + 0.005*"show" + 0.005*"credit"
+2020-01-05 11:31:53,765 : INFO : topic diff=0.449479, rho=0.387638
+2020-01-05 11:31:53,765 : INFO : PROGRESS: pass 1, at document #8000/9310
+2020-01-05 11:31:54,403 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:54,404 : INFO : topic #0 (0.010): 0.028*"book" + 0.024*"print" + 0.013*"digital" + 0.013*"design" + 0.012*"sign" + 0.012*"edition" + 0.010*"sticker" + 0.010*"pdf" + 0.009*"game" + 0.008*"art"
+2020-01-05 11:31:54,404 : INFO : topic #1 (0.010): 0.012*"sign" + 0.011*"thank" + 0.008*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"book" + 0.005*"credit" + 0.005*"digital" + 0.005*"show"
+2020-01-05 11:31:54,404 : INFO : topic diff=0.482977, rho=0.387638
+2020-01-05 11:31:54,999 : INFO : -8.065 per-word bound, 267.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:31:54,999 : INFO : PROGRESS: pass 1, at document #9310/9310
+2020-01-05 11:31:55,386 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:31:55,387 : INFO : topic #0 (0.010): 0.028*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"page" + 0.008*"game"
+2020-01-05 11:31:55,387 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.008*"album" + 0.006*"film" + 0.006*"cd" + 0.005*"digital" + 0.005*"credit" + 0.005*"show" + 0.005*"book"
+2020-01-05 11:31:55,387 : INFO : topic diff=0.556423, rho=0.387638
+2020-01-05 11:31:55,387 : INFO : PROGRESS: pass 2, at document #2000/9310
+2020-01-05 11:31:55,947 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:55,948 : INFO : topic #0 (0.010): 0.027*"book" + 0.026*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"sticker" + 0.010*"pdf" + 0.008*"cover" + 0.008*"page"
+2020-01-05 11:31:55,948 : INFO : topic #1 (0.010): 0.011*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.005*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:31:55,948 : INFO : topic diff=0.544569, rho=0.361433
+2020-01-05 11:31:55,948 : INFO : PROGRESS: pass 2, at document #4000/9310
+2020-01-05 11:31:56,526 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:56,527 : INFO : topic #0 (0.010): 0.028*"book" + 0.026*"print" + 0.013*"design" + 0.013*"digital" + 0.012*"sign" + 0.012*"edition" + 0.011*"sticker" + 0.010*"pdf" + 0.008*"page" + 0.008*"cover"
+2020-01-05 11:31:56,527 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:31:56,527 : INFO : topic diff=0.602511, rho=0.361433
+2020-01-05 11:31:56,527 : INFO : PROGRESS: pass 2, at document #6000/9310
+2020-01-05 11:31:57,115 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:57,116 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"edition" + 0.012*"design" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"art" + 0.008*"cover"
+2020-01-05 11:31:57,116 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.005*"show" + 0.005*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:31:57,116 : INFO : topic diff=0.654932, rho=0.361433
+2020-01-05 11:31:57,116 : INFO : PROGRESS: pass 2, at document #8000/9310
+2020-01-05 11:31:57,684 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:57,684 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.013*"digital" + 0.013*"sign" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"game" + 0.009*"art"
+2020-01-05 11:31:57,684 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:31:57,684 : INFO : topic diff=0.704285, rho=0.361433
+2020-01-05 11:31:58,247 : INFO : -8.051 per-word bound, 265.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:31:58,248 : INFO : PROGRESS: pass 2, at document #9310/9310
+2020-01-05 11:31:58,599 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:31:58,600 : INFO : topic #0 (0.010): 0.030*"book" + 0.028*"print" + 0.014*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"pdf" + 0.010*"sticker" + 0.009*"page" + 0.008*"game"
+2020-01-05 11:31:58,600 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.005*"credit" + 0.005*"digital" + 0.005*"show" + 0.004*"digital_download"
+2020-01-05 11:31:58,600 : INFO : topic diff=0.773525, rho=0.361433
+2020-01-05 11:31:58,600 : INFO : PROGRESS: pass 3, at document #2000/9310
+2020-01-05 11:31:59,106 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:59,107 : INFO : topic #0 (0.010): 0.029*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"sticker" + 0.010*"pdf" + 0.009*"cover" + 0.008*"page"
+2020-01-05 11:31:59,107 : INFO : topic #1 (0.010): 0.011*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"free"
+2020-01-05 11:31:59,107 : INFO : topic diff=0.743133, rho=0.339912
+2020-01-05 11:31:59,107 : INFO : PROGRESS: pass 3, at document #4000/9310
+2020-01-05 11:31:59,647 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:31:59,647 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"design" + 0.013*"sign" + 0.012*"edition" + 0.010*"sticker" + 0.010*"pdf" + 0.008*"page" + 0.008*"cover"
+2020-01-05 11:31:59,647 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:31:59,647 : INFO : topic diff=0.781868, rho=0.339912
+2020-01-05 11:31:59,647 : INFO : PROGRESS: pass 3, at document #6000/9310
+2020-01-05 11:32:00,204 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:00,205 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.014*"sign" + 0.013*"digital" + 0.012*"edition" + 0.012*"design" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"cover"
+2020-01-05 11:32:00,205 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.005*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:00,205 : INFO : topic diff=0.805289, rho=0.339912
+2020-01-05 11:32:00,205 : INFO : PROGRESS: pass 3, at document #8000/9310
+2020-01-05 11:32:00,750 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:00,751 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"sign" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.009*"game"
+2020-01-05 11:32:00,751 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:32:00,751 : INFO : topic diff=0.814765, rho=0.339912
+2020-01-05 11:32:01,290 : INFO : -8.043 per-word bound, 263.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:01,290 : INFO : PROGRESS: pass 3, at document #9310/9310
+2020-01-05 11:32:01,632 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:01,633 : INFO : topic #0 (0.010): 0.031*"book" + 0.029*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"edition" + 0.012*"design" + 0.011*"pdf" + 0.009*"sticker" + 0.009*"page" + 0.008*"game"
+2020-01-05 11:32:01,633 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:32:01,633 : INFO : topic diff=0.837861, rho=0.339912
+2020-01-05 11:32:01,633 : INFO : PROGRESS: pass 4, at document #2000/9310
+2020-01-05 11:32:02,126 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:02,127 : INFO : topic #0 (0.010): 0.030*"book" + 0.028*"print" + 0.014*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"cover" + 0.008*"page"
+2020-01-05 11:32:02,127 : INFO : topic #1 (0.010): 0.011*"thank" + 0.011*"sign" + 0.008*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.004*"free"
+2020-01-05 11:32:02,127 : INFO : topic diff=0.769431, rho=0.321828
+2020-01-05 11:32:02,127 : INFO : PROGRESS: pass 4, at document #4000/9310
+2020-01-05 11:32:02,652 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:02,652 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"design" + 0.013*"sign" + 0.012*"edition" + 0.010*"sticker" + 0.010*"pdf" + 0.008*"page" + 0.008*"cover"
+2020-01-05 11:32:02,653 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:32:02,653 : INFO : topic diff=0.771411, rho=0.321828
+2020-01-05 11:32:02,653 : INFO : PROGRESS: pass 4, at document #6000/9310
+2020-01-05 11:32:03,180 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:03,180 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.014*"sign" + 0.013*"digital" + 0.012*"edition" + 0.012*"design" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"cover"
+2020-01-05 11:32:03,180 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:03,181 : INFO : topic diff=0.761655, rho=0.321828
+2020-01-05 11:32:03,181 : INFO : PROGRESS: pass 4, at document #8000/9310
+2020-01-05 11:32:03,710 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:03,711 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"sign" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.009*"game"
+2020-01-05 11:32:03,711 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:03,711 : INFO : topic diff=0.743138, rho=0.321828
+2020-01-05 11:32:04,235 : INFO : -8.039 per-word bound, 263.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:04,235 : INFO : PROGRESS: pass 4, at document #9310/9310
+2020-01-05 11:32:04,580 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:04,581 : INFO : topic #0 (0.010): 0.031*"book" + 0.029*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"pdf" + 0.009*"sticker" + 0.009*"page" + 0.008*"art"
+2020-01-05 11:32:04,581 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:04,581 : INFO : topic diff=0.741065, rho=0.321828
+2020-01-05 11:32:04,582 : INFO : PROGRESS: pass 5, at document #2000/9310
+2020-01-05 11:32:05,062 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:05,063 : INFO : topic #0 (0.010): 0.030*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"cover" + 0.008*"page"
+2020-01-05 11:32:05,063 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.004*"free"
+2020-01-05 11:32:05,063 : INFO : topic diff=0.667955, rho=0.306354
+2020-01-05 11:32:05,063 : INFO : PROGRESS: pass 5, at document #4000/9310
+2020-01-05 11:32:05,573 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:05,574 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"design" + 0.013*"sign" + 0.012*"edition" + 0.010*"sticker" + 0.010*"pdf" + 0.008*"page" + 0.008*"cover"
+2020-01-05 11:32:05,574 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:32:05,574 : INFO : topic diff=0.657794, rho=0.306354
+2020-01-05 11:32:05,575 : INFO : PROGRESS: pass 5, at document #6000/9310
+2020-01-05 11:32:06,088 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:06,089 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.014*"sign" + 0.013*"digital" + 0.012*"edition" + 0.012*"design" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"cover"
+2020-01-05 11:32:06,089 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:06,089 : INFO : topic diff=0.636660, rho=0.306354
+2020-01-05 11:32:06,089 : INFO : PROGRESS: pass 5, at document #8000/9310
+2020-01-05 11:32:06,601 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:06,601 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"game"
+2020-01-05 11:32:06,602 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:06,602 : INFO : topic diff=0.610736, rho=0.306354
+2020-01-05 11:32:07,121 : INFO : -8.032 per-word bound, 261.8 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:07,121 : INFO : PROGRESS: pass 5, at document #9310/9310
+2020-01-05 11:32:07,438 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:07,439 : INFO : topic #0 (0.010): 0.032*"book" + 0.029*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:07,439 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:07,439 : INFO : topic diff=0.600153, rho=0.306354
+2020-01-05 11:32:07,440 : INFO : PROGRESS: pass 6, at document #2000/9310
+2020-01-05 11:32:07,934 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:07,935 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"cover" + 0.008*"page"
+2020-01-05 11:32:07,935 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:07,935 : INFO : topic diff=0.533679, rho=0.292917
+2020-01-05 11:32:07,936 : INFO : PROGRESS: pass 6, at document #4000/9310
+2020-01-05 11:32:08,438 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:08,439 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"digital" + 0.013*"design" + 0.013*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"page" + 0.008*"cover"
+2020-01-05 11:32:08,439 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.004*"digital_download"
+2020-01-05 11:32:08,439 : INFO : topic diff=0.519840, rho=0.292917
+2020-01-05 11:32:08,440 : INFO : PROGRESS: pass 6, at document #6000/9310
+2020-01-05 11:32:08,945 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:08,946 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"cover"
+2020-01-05 11:32:08,946 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:08,946 : INFO : topic diff=0.498367, rho=0.292917
+2020-01-05 11:32:08,946 : INFO : PROGRESS: pass 6, at document #8000/9310
+2020-01-05 11:32:09,450 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:09,451 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"game"
+2020-01-05 11:32:09,451 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:09,451 : INFO : topic diff=0.474030, rho=0.292917
+2020-01-05 11:32:09,961 : INFO : -8.030 per-word bound, 261.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:09,961 : INFO : PROGRESS: pass 6, at document #9310/9310
+2020-01-05 11:32:10,284 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:10,285 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:10,285 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:10,285 : INFO : topic diff=0.466539, rho=0.292917
+2020-01-05 11:32:10,285 : INFO : PROGRESS: pass 7, at document #2000/9310
+2020-01-05 11:32:10,753 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:10,754 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"cover" + 0.008*"page"
+2020-01-05 11:32:10,754 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:10,754 : INFO : topic diff=0.414831, rho=0.281105
+2020-01-05 11:32:10,754 : INFO : PROGRESS: pass 7, at document #4000/9310
+2020-01-05 11:32:11,240 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:11,240 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"design" + 0.013*"digital" + 0.013*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:11,241 : INFO : topic #1 (0.010): 0.012*"thank" + 0.010*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:11,241 : INFO : topic diff=0.406489, rho=0.281105
+2020-01-05 11:32:11,241 : INFO : PROGRESS: pass 7, at document #6000/9310
+2020-01-05 11:32:11,729 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:11,730 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"cover"
+2020-01-05 11:32:11,730 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:11,730 : INFO : topic diff=0.393372, rho=0.281105
+2020-01-05 11:32:11,731 : INFO : PROGRESS: pass 7, at document #8000/9310
+2020-01-05 11:32:12,220 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:12,221 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.013*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"page"
+2020-01-05 11:32:12,221 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.005*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:12,221 : INFO : topic diff=0.376563, rho=0.281105
+2020-01-05 11:32:12,730 : INFO : -8.027 per-word bound, 260.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:12,730 : INFO : PROGRESS: pass 7, at document #9310/9310
+2020-01-05 11:32:13,041 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:13,042 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"digital" + 0.013*"sign" + 0.012*"design" + 0.012*"edition" + 0.011*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:13,042 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:13,042 : INFO : topic diff=0.375963, rho=0.281105
+2020-01-05 11:32:13,042 : INFO : PROGRESS: pass 8, at document #2000/9310
+2020-01-05 11:32:13,500 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:13,501 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:13,501 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:13,501 : INFO : topic diff=0.336828, rho=0.270616
+2020-01-05 11:32:13,502 : INFO : PROGRESS: pass 8, at document #4000/9310
+2020-01-05 11:32:13,992 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:13,993 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"design" + 0.013*"digital" + 0.013*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"art" + 0.008*"page"
+2020-01-05 11:32:13,993 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:13,993 : INFO : topic diff=0.333305, rho=0.270616
+2020-01-05 11:32:13,993 : INFO : PROGRESS: pass 8, at document #6000/9310
+2020-01-05 11:32:14,496 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:14,497 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"cover"
+2020-01-05 11:32:14,497 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:14,498 : INFO : topic diff=0.324584, rho=0.270616
+2020-01-05 11:32:14,498 : INFO : PROGRESS: pass 8, at document #8000/9310
+2020-01-05 11:32:14,989 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:14,990 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"page"
+2020-01-05 11:32:14,990 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:14,990 : INFO : topic diff=0.312141, rho=0.270616
+2020-01-05 11:32:15,498 : INFO : -8.025 per-word bound, 260.5 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:15,498 : INFO : PROGRESS: pass 8, at document #9310/9310
+2020-01-05 11:32:15,810 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:15,810 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:15,810 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:15,811 : INFO : topic diff=0.314990, rho=0.270616
+2020-01-05 11:32:15,811 : INFO : PROGRESS: pass 9, at document #2000/9310
+2020-01-05 11:32:16,267 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:16,268 : INFO : topic #0 (0.010): 0.030*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:16,268 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:16,268 : INFO : topic diff=0.282943, rho=0.261220
+2020-01-05 11:32:16,268 : INFO : PROGRESS: pass 9, at document #4000/9310
+2020-01-05 11:32:16,746 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:16,747 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"design" + 0.013*"digital" + 0.013*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"art" + 0.008*"page"
+2020-01-05 11:32:16,747 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:16,748 : INFO : topic diff=0.280573, rho=0.261220
+2020-01-05 11:32:16,748 : INFO : PROGRESS: pass 9, at document #6000/9310
+2020-01-05 11:32:17,233 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:17,234 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"cover"
+2020-01-05 11:32:17,234 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:17,234 : INFO : topic diff=0.273915, rho=0.261220
+2020-01-05 11:32:17,234 : INFO : PROGRESS: pass 9, at document #8000/9310
+2020-01-05 11:32:17,724 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:17,725 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"page"
+2020-01-05 11:32:17,725 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:17,725 : INFO : topic diff=0.262457, rho=0.261220
+2020-01-05 11:32:18,232 : INFO : -8.023 per-word bound, 260.2 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:18,232 : INFO : PROGRESS: pass 9, at document #9310/9310
+2020-01-05 11:32:18,534 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:18,535 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:18,535 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:18,535 : INFO : topic diff=0.265967, rho=0.261220
+2020-01-05 11:32:18,535 : INFO : PROGRESS: pass 10, at document #2000/9310
+2020-01-05 11:32:18,989 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:18,990 : INFO : topic #0 (0.010): 0.030*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:18,990 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:18,990 : INFO : topic diff=0.238147, rho=0.252740
+2020-01-05 11:32:18,990 : INFO : PROGRESS: pass 10, at document #4000/9310
+2020-01-05 11:32:19,474 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:19,475 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"design" + 0.013*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"art" + 0.008*"page"
+2020-01-05 11:32:19,475 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:19,475 : INFO : topic diff=0.235337, rho=0.252740
+2020-01-05 11:32:19,475 : INFO : PROGRESS: pass 10, at document #6000/9310
+2020-01-05 11:32:19,966 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:19,967 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"cover"
+2020-01-05 11:32:19,967 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:19,967 : INFO : topic diff=0.229683, rho=0.252740
+2020-01-05 11:32:19,967 : INFO : PROGRESS: pass 10, at document #8000/9310
+2020-01-05 11:32:20,459 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:20,459 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"page"
+2020-01-05 11:32:20,460 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:20,460 : INFO : topic diff=0.219421, rho=0.252740
+2020-01-05 11:32:20,956 : INFO : -8.022 per-word bound, 259.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:20,956 : INFO : PROGRESS: pass 10, at document #9310/9310
+2020-01-05 11:32:21,255 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:21,256 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:21,256 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:21,256 : INFO : topic diff=0.224184, rho=0.252740
+2020-01-05 11:32:21,256 : INFO : PROGRESS: pass 11, at document #2000/9310
+2020-01-05 11:32:21,708 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:21,709 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:21,709 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:21,709 : INFO : topic diff=0.200961, rho=0.245035
+2020-01-05 11:32:21,709 : INFO : PROGRESS: pass 11, at document #4000/9310
+2020-01-05 11:32:22,180 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:22,181 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"design" + 0.013*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.010*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:22,181 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:22,181 : INFO : topic diff=0.199490, rho=0.245035
+2020-01-05 11:32:22,181 : INFO : PROGRESS: pass 11, at document #6000/9310
+2020-01-05 11:32:22,656 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:22,657 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:22,657 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:22,657 : INFO : topic diff=0.195901, rho=0.245035
+2020-01-05 11:32:22,657 : INFO : PROGRESS: pass 11, at document #8000/9310
+2020-01-05 11:32:23,130 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:23,131 : INFO : topic #0 (0.010): 0.032*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"pack"
+2020-01-05 11:32:23,131 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:23,131 : INFO : topic diff=0.188110, rho=0.245035
+2020-01-05 11:32:23,628 : INFO : -8.020 per-word bound, 259.6 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:23,629 : INFO : PROGRESS: pass 11, at document #9310/9310
+2020-01-05 11:32:23,926 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:23,927 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:23,927 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:23,927 : INFO : topic diff=0.194859, rho=0.245035
+2020-01-05 11:32:23,927 : INFO : PROGRESS: pass 12, at document #2000/9310
+2020-01-05 11:32:24,369 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:24,369 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:24,370 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:24,370 : INFO : topic diff=0.176053, rho=0.237994
+2020-01-05 11:32:24,370 : INFO : PROGRESS: pass 12, at document #4000/9310
+2020-01-05 11:32:24,840 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:24,841 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:24,841 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:24,841 : INFO : topic diff=0.176405, rho=0.237994
+2020-01-05 11:32:24,841 : INFO : PROGRESS: pass 12, at document #6000/9310
+2020-01-05 11:32:25,320 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:25,321 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:25,321 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:25,321 : INFO : topic diff=0.174723, rho=0.237994
+2020-01-05 11:32:25,321 : INFO : PROGRESS: pass 12, at document #8000/9310
+2020-01-05 11:32:25,791 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:25,792 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"design" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.009*"art" + 0.008*"pack"
+2020-01-05 11:32:25,792 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:25,792 : INFO : topic diff=0.169170, rho=0.237994
+2020-01-05 11:32:26,284 : INFO : -8.019 per-word bound, 259.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:26,285 : INFO : PROGRESS: pass 12, at document #9310/9310
+2020-01-05 11:32:26,581 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:26,582 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.013*"sign" + 0.013*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:26,583 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:26,583 : INFO : topic diff=0.177153, rho=0.237994
+2020-01-05 11:32:26,583 : INFO : PROGRESS: pass 13, at document #2000/9310
+2020-01-05 11:32:27,020 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:27,021 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:27,021 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:27,021 : INFO : topic diff=0.161013, rho=0.231527
+2020-01-05 11:32:27,021 : INFO : PROGRESS: pass 13, at document #4000/9310
+2020-01-05 11:32:27,483 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:27,484 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:27,484 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:27,484 : INFO : topic diff=0.161972, rho=0.231527
+2020-01-05 11:32:27,484 : INFO : PROGRESS: pass 13, at document #6000/9310
+2020-01-05 11:32:27,957 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:27,958 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:27,958 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"show" + 0.006*"credit" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:27,958 : INFO : topic diff=0.161185, rho=0.231527
+2020-01-05 11:32:27,958 : INFO : PROGRESS: pass 13, at document #8000/9310
+2020-01-05 11:32:28,433 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:28,434 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:28,434 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:28,435 : INFO : topic diff=0.156207, rho=0.231527
+2020-01-05 11:32:28,935 : INFO : -8.018 per-word bound, 259.2 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:28,935 : INFO : PROGRESS: pass 13, at document #9310/9310
+2020-01-05 11:32:29,234 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:29,235 : INFO : topic #0 (0.010): 0.031*"book" + 0.028*"print" + 0.012*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:29,235 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:29,235 : INFO : topic diff=0.164455, rho=0.231527
+2020-01-05 11:32:29,235 : INFO : PROGRESS: pass 14, at document #2000/9310
+2020-01-05 11:32:29,674 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:29,675 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:29,675 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:29,675 : INFO : topic diff=0.149566, rho=0.225561
+2020-01-05 11:32:29,675 : INFO : PROGRESS: pass 14, at document #4000/9310
+2020-01-05 11:32:30,171 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:30,172 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:30,172 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"show" + 0.006*"cd" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:30,172 : INFO : topic diff=0.150375, rho=0.225561
+2020-01-05 11:32:30,172 : INFO : PROGRESS: pass 14, at document #6000/9310
+2020-01-05 11:32:30,652 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:30,653 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.013*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:30,653 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"film" + 0.007*"album" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:30,653 : INFO : topic diff=0.149878, rho=0.225561
+2020-01-05 11:32:30,653 : INFO : PROGRESS: pass 14, at document #8000/9310
+2020-01-05 11:32:31,122 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:31,123 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:31,123 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.005*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:31,124 : INFO : topic diff=0.145035, rho=0.225561
+2020-01-05 11:32:31,620 : INFO : -8.017 per-word bound, 259.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:31,620 : INFO : PROGRESS: pass 14, at document #9310/9310
+2020-01-05 11:32:31,942 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:31,944 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:31,944 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:31,944 : INFO : topic diff=0.152971, rho=0.225561
+2020-01-05 11:32:31,944 : INFO : PROGRESS: pass 15, at document #2000/9310
+2020-01-05 11:32:32,383 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:32,383 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.013*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"art"
+2020-01-05 11:32:32,384 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:32,384 : INFO : topic diff=0.138768, rho=0.220033
+2020-01-05 11:32:32,384 : INFO : PROGRESS: pass 15, at document #4000/9310
+2020-01-05 11:32:32,847 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:32,848 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:32,848 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:32,849 : INFO : topic diff=0.139057, rho=0.220033
+2020-01-05 11:32:32,849 : INFO : PROGRESS: pass 15, at document #6000/9310
+2020-01-05 11:32:33,319 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:33,320 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.013*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:33,320 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:33,320 : INFO : topic diff=0.138680, rho=0.220033
+2020-01-05 11:32:33,320 : INFO : PROGRESS: pass 15, at document #8000/9310
+2020-01-05 11:32:33,796 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:33,797 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:33,797 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:33,797 : INFO : topic diff=0.133741, rho=0.220033
+2020-01-05 11:32:34,296 : INFO : -8.016 per-word bound, 258.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:34,297 : INFO : PROGRESS: pass 15, at document #9310/9310
+2020-01-05 11:32:34,595 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:34,596 : INFO : topic #0 (0.010): 0.031*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:34,596 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:34,596 : INFO : topic diff=0.141314, rho=0.220033
+2020-01-05 11:32:34,596 : INFO : PROGRESS: pass 16, at document #2000/9310
+2020-01-05 11:32:35,038 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:35,038 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"pack"
+2020-01-05 11:32:35,039 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:35,039 : INFO : topic diff=0.127915, rho=0.214892
+2020-01-05 11:32:35,039 : INFO : PROGRESS: pass 16, at document #4000/9310
+2020-01-05 11:32:35,508 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:35,509 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:35,509 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:35,509 : INFO : topic diff=0.127958, rho=0.214892
+2020-01-05 11:32:35,509 : INFO : PROGRESS: pass 16, at document #6000/9310
+2020-01-05 11:32:35,984 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:35,985 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:35,985 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:35,985 : INFO : topic diff=0.127614, rho=0.214892
+2020-01-05 11:32:35,986 : INFO : PROGRESS: pass 16, at document #8000/9310
+2020-01-05 11:32:36,453 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:36,454 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:36,454 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:36,454 : INFO : topic diff=0.122991, rho=0.214892
+2020-01-05 11:32:36,946 : INFO : -8.016 per-word bound, 258.8 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:36,947 : INFO : PROGRESS: pass 16, at document #9310/9310
+2020-01-05 11:32:37,239 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:37,240 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"digital" + 0.012*"design" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:37,240 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:37,240 : INFO : topic diff=0.130505, rho=0.214892
+2020-01-05 11:32:37,240 : INFO : PROGRESS: pass 17, at document #2000/9310
+2020-01-05 11:32:37,676 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:37,677 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"pack"
+2020-01-05 11:32:37,677 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:37,677 : INFO : topic diff=0.117905, rho=0.210096
+2020-01-05 11:32:37,678 : INFO : PROGRESS: pass 17, at document #4000/9310
+2020-01-05 11:32:38,158 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:38,159 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:38,159 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:38,159 : INFO : topic diff=0.118181, rho=0.210096
+2020-01-05 11:32:38,159 : INFO : PROGRESS: pass 17, at document #6000/9310
+2020-01-05 11:32:38,632 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:38,633 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:38,633 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:38,633 : INFO : topic diff=0.118325, rho=0.210096
+2020-01-05 11:32:38,633 : INFO : PROGRESS: pass 17, at document #8000/9310
+2020-01-05 11:32:39,103 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:39,104 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:39,104 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:39,104 : INFO : topic diff=0.114213, rho=0.210096
+2020-01-05 11:32:39,595 : INFO : -8.015 per-word bound, 258.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:39,595 : INFO : PROGRESS: pass 17, at document #9310/9310
+2020-01-05 11:32:39,890 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:39,891 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:39,891 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:39,891 : INFO : topic diff=0.122178, rho=0.210096
+2020-01-05 11:32:39,892 : INFO : PROGRESS: pass 18, at document #2000/9310
+2020-01-05 11:32:40,337 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:40,338 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"pack"
+2020-01-05 11:32:40,338 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:40,338 : INFO : topic diff=0.110654, rho=0.205607
+2020-01-05 11:32:40,339 : INFO : PROGRESS: pass 18, at document #4000/9310
+2020-01-05 11:32:40,803 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:40,804 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:40,804 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:40,804 : INFO : topic diff=0.111502, rho=0.205607
+2020-01-05 11:32:40,804 : INFO : PROGRESS: pass 18, at document #6000/9310
+2020-01-05 11:32:41,266 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:41,267 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:41,267 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:41,267 : INFO : topic diff=0.112225, rho=0.205607
+2020-01-05 11:32:41,267 : INFO : PROGRESS: pass 18, at document #8000/9310
+2020-01-05 11:32:41,731 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:41,731 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:41,732 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:41,732 : INFO : topic diff=0.108585, rho=0.205607
+2020-01-05 11:32:42,220 : INFO : -8.015 per-word bound, 258.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:42,220 : INFO : PROGRESS: pass 18, at document #9310/9310
+2020-01-05 11:32:42,509 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:42,510 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:42,510 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:42,510 : INFO : topic diff=0.116778, rho=0.205607
+2020-01-05 11:32:42,510 : INFO : PROGRESS: pass 19, at document #2000/9310
+2020-01-05 11:32:42,938 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:42,939 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"cover" + 0.008*"pack"
+2020-01-05 11:32:42,940 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:42,940 : INFO : topic diff=0.106055, rho=0.201394
+2020-01-05 11:32:42,940 : INFO : PROGRESS: pass 19, at document #4000/9310
+2020-01-05 11:32:43,395 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:43,396 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:43,396 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:43,396 : INFO : topic diff=0.107084, rho=0.201394
+2020-01-05 11:32:43,396 : INFO : PROGRESS: pass 19, at document #6000/9310
+2020-01-05 11:32:43,855 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:43,856 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:43,856 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:43,856 : INFO : topic diff=0.107787, rho=0.201394
+2020-01-05 11:32:43,856 : INFO : PROGRESS: pass 19, at document #8000/9310
+2020-01-05 11:32:44,324 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:44,325 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:44,325 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:44,325 : INFO : topic diff=0.104391, rho=0.201394
+2020-01-05 11:32:44,818 : INFO : -8.014 per-word bound, 258.6 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:44,819 : INFO : PROGRESS: pass 19, at document #9310/9310
+2020-01-05 11:32:45,115 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:45,115 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:45,116 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:45,116 : INFO : topic diff=0.112528, rho=0.201394
+2020-01-05 11:32:45,116 : INFO : PROGRESS: pass 20, at document #2000/9310
+2020-01-05 11:32:45,547 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:45,548 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:45,548 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:45,549 : INFO : topic diff=0.102176, rho=0.197430
+2020-01-05 11:32:45,549 : INFO : PROGRESS: pass 20, at document #4000/9310
+2020-01-05 11:32:46,007 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:46,008 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:46,008 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:46,008 : INFO : topic diff=0.103270, rho=0.197430
+2020-01-05 11:32:46,008 : INFO : PROGRESS: pass 20, at document #6000/9310
+2020-01-05 11:32:46,472 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:46,473 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:46,473 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:46,473 : INFO : topic diff=0.104021, rho=0.197430
+2020-01-05 11:32:46,473 : INFO : PROGRESS: pass 20, at document #8000/9310
+2020-01-05 11:32:46,941 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:46,942 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:46,942 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:46,942 : INFO : topic diff=0.100777, rho=0.197430
+2020-01-05 11:32:47,437 : INFO : -8.014 per-word bound, 258.5 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:47,437 : INFO : PROGRESS: pass 20, at document #9310/9310
+2020-01-05 11:32:47,731 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:47,732 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"art"
+2020-01-05 11:32:47,732 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:47,732 : INFO : topic diff=0.108730, rho=0.197430
+2020-01-05 11:32:47,733 : INFO : PROGRESS: pass 21, at document #2000/9310
+2020-01-05 11:32:48,164 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:48,165 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:48,165 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:48,165 : INFO : topic diff=0.098899, rho=0.193692
+2020-01-05 11:32:48,166 : INFO : PROGRESS: pass 21, at document #4000/9310
+2020-01-05 11:32:48,619 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:48,620 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:48,620 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:48,620 : INFO : topic diff=0.099992, rho=0.193692
+2020-01-05 11:32:48,621 : INFO : PROGRESS: pass 21, at document #6000/9310
+2020-01-05 11:32:49,096 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:49,097 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:49,097 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:49,098 : INFO : topic diff=0.100859, rho=0.193692
+2020-01-05 11:32:49,098 : INFO : PROGRESS: pass 21, at document #8000/9310
+2020-01-05 11:32:49,567 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:49,568 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:49,568 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:49,568 : INFO : topic diff=0.097772, rho=0.193692
+2020-01-05 11:32:50,067 : INFO : -8.014 per-word bound, 258.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:50,067 : INFO : PROGRESS: pass 21, at document #9310/9310
+2020-01-05 11:32:50,359 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:50,359 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"page" + 0.008*"pack"
+2020-01-05 11:32:50,360 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:50,360 : INFO : topic diff=0.105703, rho=0.193692
+2020-01-05 11:32:50,360 : INFO : PROGRESS: pass 22, at document #2000/9310
+2020-01-05 11:32:50,795 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:50,796 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:50,796 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:50,796 : INFO : topic diff=0.096313, rho=0.190157
+2020-01-05 11:32:50,796 : INFO : PROGRESS: pass 22, at document #4000/9310
+2020-01-05 11:32:51,252 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:51,253 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:51,253 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:51,253 : INFO : topic diff=0.097388, rho=0.190157
+2020-01-05 11:32:51,253 : INFO : PROGRESS: pass 22, at document #6000/9310
+2020-01-05 11:32:51,718 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:51,719 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:51,719 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:51,719 : INFO : topic diff=0.098332, rho=0.190157
+2020-01-05 11:32:51,719 : INFO : PROGRESS: pass 22, at document #8000/9310
+2020-01-05 11:32:52,183 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:52,184 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:52,184 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:52,184 : INFO : topic diff=0.095345, rho=0.190157
+2020-01-05 11:32:52,681 : INFO : -8.013 per-word bound, 258.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:52,682 : INFO : PROGRESS: pass 22, at document #9310/9310
+2020-01-05 11:32:52,967 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:52,968 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"page"
+2020-01-05 11:32:52,968 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:52,968 : INFO : topic diff=0.103168, rho=0.190157
+2020-01-05 11:32:52,968 : INFO : PROGRESS: pass 23, at document #2000/9310
+2020-01-05 11:32:53,403 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:53,404 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:53,404 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:53,404 : INFO : topic diff=0.093960, rho=0.186810
+2020-01-05 11:32:53,404 : INFO : PROGRESS: pass 23, at document #4000/9310
+2020-01-05 11:32:53,858 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:53,858 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:53,859 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:53,859 : INFO : topic diff=0.094834, rho=0.186810
+2020-01-05 11:32:53,859 : INFO : PROGRESS: pass 23, at document #6000/9310
+2020-01-05 11:32:54,324 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:54,325 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"sign" + 0.012*"design" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:54,325 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:54,325 : INFO : topic diff=0.095718, rho=0.186810
+2020-01-05 11:32:54,325 : INFO : PROGRESS: pass 23, at document #8000/9310
+2020-01-05 11:32:54,799 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:54,800 : INFO : topic #0 (0.010): 0.031*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"art" + 0.008*"pack"
+2020-01-05 11:32:54,800 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:54,800 : INFO : topic diff=0.092618, rho=0.186810
+2020-01-05 11:32:55,294 : INFO : -8.013 per-word bound, 258.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:55,294 : INFO : PROGRESS: pass 23, at document #9310/9310
+2020-01-05 11:32:55,582 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:55,583 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"page"
+2020-01-05 11:32:55,583 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:32:55,584 : INFO : topic diff=0.100026, rho=0.186810
+2020-01-05 11:32:55,584 : INFO : PROGRESS: pass 24, at document #2000/9310
+2020-01-05 11:32:56,012 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:56,013 : INFO : topic #0 (0.010): 0.029*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:56,013 : INFO : topic #1 (0.010): 0.012*"thank" + 0.011*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:56,014 : INFO : topic diff=0.090846, rho=0.183633
+2020-01-05 11:32:56,014 : INFO : PROGRESS: pass 24, at document #4000/9310
+2020-01-05 11:32:56,471 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:56,472 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:56,472 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:56,472 : INFO : topic diff=0.091397, rho=0.183633
+2020-01-05 11:32:56,472 : INFO : PROGRESS: pass 24, at document #6000/9310
+2020-01-05 11:32:56,936 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:56,937 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:56,937 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:56,937 : INFO : topic diff=0.092040, rho=0.183633
+2020-01-05 11:32:56,938 : INFO : PROGRESS: pass 24, at document #8000/9310
+2020-01-05 11:32:57,407 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:57,407 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:57,408 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:57,408 : INFO : topic diff=0.088832, rho=0.183633
+2020-01-05 11:32:57,891 : INFO : -8.013 per-word bound, 258.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:32:57,892 : INFO : PROGRESS: pass 24, at document #9310/9310
+2020-01-05 11:32:58,179 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:32:58,180 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"page"
+2020-01-05 11:32:58,180 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:32:58,180 : INFO : topic diff=0.095804, rho=0.183633
+2020-01-05 11:32:58,180 : INFO : PROGRESS: pass 25, at document #2000/9310
+2020-01-05 11:32:58,609 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:58,610 : INFO : topic #0 (0.010): 0.029*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:32:58,610 : INFO : topic #1 (0.010): 0.012*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:58,610 : INFO : topic diff=0.086846, rho=0.180613
+2020-01-05 11:32:58,610 : INFO : PROGRESS: pass 25, at document #4000/9310
+2020-01-05 11:32:59,062 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:59,062 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:59,063 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:59,063 : INFO : topic diff=0.087176, rho=0.180613
+2020-01-05 11:32:59,063 : INFO : PROGRESS: pass 25, at document #6000/9310
+2020-01-05 11:32:59,519 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:59,520 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.012*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:59,520 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:59,520 : INFO : topic diff=0.087658, rho=0.180613
+2020-01-05 11:32:59,520 : INFO : PROGRESS: pass 25, at document #8000/9310
+2020-01-05 11:32:59,982 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:32:59,983 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:32:59,983 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:32:59,983 : INFO : topic diff=0.084514, rho=0.180613
+2020-01-05 11:33:00,483 : INFO : -8.012 per-word bound, 258.1 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:00,483 : INFO : PROGRESS: pass 25, at document #9310/9310
+2020-01-05 11:33:00,776 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:00,777 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"page"
+2020-01-05 11:33:00,777 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:00,778 : INFO : topic diff=0.091393, rho=0.180613
+2020-01-05 11:33:00,778 : INFO : PROGRESS: pass 26, at document #2000/9310
+2020-01-05 11:33:01,213 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:01,213 : INFO : topic #0 (0.010): 0.029*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:01,214 : INFO : topic #1 (0.010): 0.012*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:01,214 : INFO : topic diff=0.082771, rho=0.177737
+2020-01-05 11:33:01,214 : INFO : PROGRESS: pass 26, at document #4000/9310
+2020-01-05 11:33:01,660 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:01,661 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:01,661 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:01,661 : INFO : topic diff=0.083179, rho=0.177737
+2020-01-05 11:33:01,661 : INFO : PROGRESS: pass 26, at document #6000/9310
+2020-01-05 11:33:02,120 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:02,121 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:02,121 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:02,122 : INFO : topic diff=0.083881, rho=0.177737
+2020-01-05 11:33:02,122 : INFO : PROGRESS: pass 26, at document #8000/9310
+2020-01-05 11:33:02,578 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:02,578 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:02,579 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:02,579 : INFO : topic diff=0.080908, rho=0.177737
+2020-01-05 11:33:03,066 : INFO : -8.011 per-word bound, 258.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:03,066 : INFO : PROGRESS: pass 26, at document #9310/9310
+2020-01-05 11:33:03,355 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:03,355 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:03,356 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:03,356 : INFO : topic diff=0.087944, rho=0.177737
+2020-01-05 11:33:03,356 : INFO : PROGRESS: pass 27, at document #2000/9310
+2020-01-05 11:33:03,788 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:03,789 : INFO : topic #0 (0.010): 0.029*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:03,790 : INFO : topic #1 (0.010): 0.012*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:03,790 : INFO : topic diff=0.079790, rho=0.174995
+2020-01-05 11:33:03,790 : INFO : PROGRESS: pass 27, at document #4000/9310
+2020-01-05 11:33:04,237 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:04,237 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:04,238 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:04,238 : INFO : topic diff=0.080378, rho=0.174995
+2020-01-05 11:33:04,238 : INFO : PROGRESS: pass 27, at document #6000/9310
+2020-01-05 11:33:04,699 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:04,700 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:04,700 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:04,700 : INFO : topic diff=0.081387, rho=0.174995
+2020-01-05 11:33:04,700 : INFO : PROGRESS: pass 27, at document #8000/9310
+2020-01-05 11:33:05,162 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:05,162 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:05,163 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:05,163 : INFO : topic diff=0.078644, rho=0.174995
+2020-01-05 11:33:05,652 : INFO : -8.012 per-word bound, 258.1 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:05,652 : INFO : PROGRESS: pass 27, at document #9310/9310
+2020-01-05 11:33:05,937 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:05,938 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:05,938 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:05,938 : INFO : topic diff=0.085788, rho=0.174995
+2020-01-05 11:33:05,938 : INFO : PROGRESS: pass 28, at document #2000/9310
+2020-01-05 11:33:06,370 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:06,371 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:06,371 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:06,371 : INFO : topic diff=0.078046, rho=0.172375
+2020-01-05 11:33:06,371 : INFO : PROGRESS: pass 28, at document #4000/9310
+2020-01-05 11:33:06,823 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:06,824 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:06,824 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:06,824 : INFO : topic diff=0.078747, rho=0.172375
+2020-01-05 11:33:06,824 : INFO : PROGRESS: pass 28, at document #6000/9310
+2020-01-05 11:33:07,287 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:07,287 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:07,288 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:07,288 : INFO : topic diff=0.079857, rho=0.172375
+2020-01-05 11:33:07,288 : INFO : PROGRESS: pass 28, at document #8000/9310
+2020-01-05 11:33:07,750 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:07,750 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:07,751 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:07,751 : INFO : topic diff=0.077295, rho=0.172375
+2020-01-05 11:33:08,262 : INFO : -8.012 per-word bound, 258.1 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:08,262 : INFO : PROGRESS: pass 28, at document #9310/9310
+2020-01-05 11:33:08,550 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:08,550 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:08,551 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:08,551 : INFO : topic diff=0.084339, rho=0.172375
+2020-01-05 11:33:08,551 : INFO : PROGRESS: pass 29, at document #2000/9310
+2020-01-05 11:33:08,989 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:08,989 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:08,990 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:08,990 : INFO : topic diff=0.076775, rho=0.169870
+2020-01-05 11:33:08,990 : INFO : PROGRESS: pass 29, at document #4000/9310
+2020-01-05 11:33:09,436 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:09,437 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:09,437 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:09,437 : INFO : topic diff=0.077418, rho=0.169870
+2020-01-05 11:33:09,437 : INFO : PROGRESS: pass 29, at document #6000/9310
+2020-01-05 11:33:09,896 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:09,896 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:09,897 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:09,897 : INFO : topic diff=0.078445, rho=0.169870
+2020-01-05 11:33:09,897 : INFO : PROGRESS: pass 29, at document #8000/9310
+2020-01-05 11:33:10,365 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:10,366 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:10,366 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:10,366 : INFO : topic diff=0.075911, rho=0.169870
+2020-01-05 11:33:10,850 : INFO : -8.011 per-word bound, 258.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:10,850 : INFO : PROGRESS: pass 29, at document #9310/9310
+2020-01-05 11:33:11,131 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:11,132 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:11,132 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:11,132 : INFO : topic diff=0.082725, rho=0.169870
+2020-01-05 11:33:11,132 : INFO : PROGRESS: pass 30, at document #2000/9310
+2020-01-05 11:33:11,562 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:11,563 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:11,563 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:11,563 : INFO : topic diff=0.075218, rho=0.167471
+2020-01-05 11:33:11,563 : INFO : PROGRESS: pass 30, at document #4000/9310
+2020-01-05 11:33:12,011 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:12,012 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:12,012 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:12,012 : INFO : topic diff=0.075780, rho=0.167471
+2020-01-05 11:33:12,012 : INFO : PROGRESS: pass 30, at document #6000/9310
+2020-01-05 11:33:12,468 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:12,469 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:12,469 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:12,469 : INFO : topic diff=0.076743, rho=0.167471
+2020-01-05 11:33:12,469 : INFO : PROGRESS: pass 30, at document #8000/9310
+2020-01-05 11:33:12,928 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:12,929 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:12,929 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:12,929 : INFO : topic diff=0.074173, rho=0.167471
+2020-01-05 11:33:13,415 : INFO : -8.011 per-word bound, 258.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:13,415 : INFO : PROGRESS: pass 30, at document #9310/9310
+2020-01-05 11:33:13,703 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:13,704 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:13,704 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:13,704 : INFO : topic diff=0.080848, rho=0.167471
+2020-01-05 11:33:13,704 : INFO : PROGRESS: pass 31, at document #2000/9310
+2020-01-05 11:33:14,138 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:14,139 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:14,139 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:14,139 : INFO : topic diff=0.073455, rho=0.165171
+2020-01-05 11:33:14,139 : INFO : PROGRESS: pass 31, at document #4000/9310
+2020-01-05 11:33:14,600 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:14,601 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:14,601 : INFO : topic #1 (0.010): 0.013*"thank" + 0.011*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:14,601 : INFO : topic diff=0.074030, rho=0.165171
+2020-01-05 11:33:14,601 : INFO : PROGRESS: pass 31, at document #6000/9310
+2020-01-05 11:33:15,062 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:15,063 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:15,063 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:15,063 : INFO : topic diff=0.075039, rho=0.165171
+2020-01-05 11:33:15,063 : INFO : PROGRESS: pass 31, at document #8000/9310
+2020-01-05 11:33:15,524 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:15,525 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:15,525 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:15,525 : INFO : topic diff=0.072479, rho=0.165171
+2020-01-05 11:33:16,012 : INFO : -8.011 per-word bound, 258.0 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:16,012 : INFO : PROGRESS: pass 31, at document #9310/9310
+2020-01-05 11:33:16,296 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:16,297 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:16,297 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:16,298 : INFO : topic diff=0.079054, rho=0.165171
+2020-01-05 11:33:16,298 : INFO : PROGRESS: pass 32, at document #2000/9310
+2020-01-05 11:33:16,729 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:16,729 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:16,730 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:16,730 : INFO : topic diff=0.071858, rho=0.162963
+2020-01-05 11:33:16,730 : INFO : PROGRESS: pass 32, at document #4000/9310
+2020-01-05 11:33:17,176 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:17,177 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:17,177 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:17,177 : INFO : topic diff=0.072374, rho=0.162963
+2020-01-05 11:33:17,178 : INFO : PROGRESS: pass 32, at document #6000/9310
+2020-01-05 11:33:17,635 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:17,636 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:17,636 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:17,636 : INFO : topic diff=0.073411, rho=0.162963
+2020-01-05 11:33:17,636 : INFO : PROGRESS: pass 32, at document #8000/9310
+2020-01-05 11:33:18,098 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:18,098 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:18,099 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:18,099 : INFO : topic diff=0.070916, rho=0.162963
+2020-01-05 11:33:18,582 : INFO : -8.011 per-word bound, 257.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:18,582 : INFO : PROGRESS: pass 32, at document #9310/9310
+2020-01-05 11:33:18,867 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:18,868 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:18,868 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:18,868 : INFO : topic diff=0.077385, rho=0.162963
+2020-01-05 11:33:18,868 : INFO : PROGRESS: pass 33, at document #2000/9310
+2020-01-05 11:33:19,292 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:19,293 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:19,293 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:19,293 : INFO : topic diff=0.070333, rho=0.160841
+2020-01-05 11:33:19,293 : INFO : PROGRESS: pass 33, at document #4000/9310
+2020-01-05 11:33:19,738 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:19,739 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:19,739 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:19,739 : INFO : topic diff=0.070811, rho=0.160841
+2020-01-05 11:33:19,740 : INFO : PROGRESS: pass 33, at document #6000/9310
+2020-01-05 11:33:20,199 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:20,199 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:20,200 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:20,200 : INFO : topic diff=0.071880, rho=0.160841
+2020-01-05 11:33:20,200 : INFO : PROGRESS: pass 33, at document #8000/9310
+2020-01-05 11:33:20,661 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:20,661 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:20,662 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:20,662 : INFO : topic diff=0.069420, rho=0.160841
+2020-01-05 11:33:21,140 : INFO : -8.011 per-word bound, 257.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:21,140 : INFO : PROGRESS: pass 33, at document #9310/9310
+2020-01-05 11:33:21,431 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:21,432 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:21,432 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:21,432 : INFO : topic diff=0.075892, rho=0.160841
+2020-01-05 11:33:21,432 : INFO : PROGRESS: pass 34, at document #2000/9310
+2020-01-05 11:33:21,855 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:21,856 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:21,856 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:21,856 : INFO : topic diff=0.068991, rho=0.158800
+2020-01-05 11:33:21,856 : INFO : PROGRESS: pass 34, at document #4000/9310
+2020-01-05 11:33:22,295 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:22,296 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:22,296 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:22,297 : INFO : topic diff=0.069468, rho=0.158800
+2020-01-05 11:33:22,297 : INFO : PROGRESS: pass 34, at document #6000/9310
+2020-01-05 11:33:22,752 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:22,753 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:22,753 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:22,753 : INFO : topic diff=0.070612, rho=0.158800
+2020-01-05 11:33:22,753 : INFO : PROGRESS: pass 34, at document #8000/9310
+2020-01-05 11:33:23,206 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:23,207 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:23,207 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:23,207 : INFO : topic diff=0.068197, rho=0.158800
+2020-01-05 11:33:23,698 : INFO : -8.010 per-word bound, 257.9 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:23,698 : INFO : PROGRESS: pass 34, at document #9310/9310
+2020-01-05 11:33:23,977 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:23,978 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:23,978 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:23,978 : INFO : topic diff=0.074635, rho=0.158800
+2020-01-05 11:33:23,979 : INFO : PROGRESS: pass 35, at document #2000/9310
+2020-01-05 11:33:24,402 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:24,402 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:24,403 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:24,403 : INFO : topic diff=0.067875, rho=0.156835
+2020-01-05 11:33:24,403 : INFO : PROGRESS: pass 35, at document #4000/9310
+2020-01-05 11:33:24,844 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:24,845 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:24,845 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:24,845 : INFO : topic diff=0.068332, rho=0.156835
+2020-01-05 11:33:24,845 : INFO : PROGRESS: pass 35, at document #6000/9310
+2020-01-05 11:33:25,300 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:25,301 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:25,301 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:25,301 : INFO : topic diff=0.069506, rho=0.156835
+2020-01-05 11:33:25,301 : INFO : PROGRESS: pass 35, at document #8000/9310
+2020-01-05 11:33:25,770 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:25,770 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:25,771 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:25,771 : INFO : topic diff=0.067151, rho=0.156835
+2020-01-05 11:33:26,254 : INFO : -8.010 per-word bound, 257.8 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:26,254 : INFO : PROGRESS: pass 35, at document #9310/9310
+2020-01-05 11:33:26,540 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:26,541 : INFO : topic #0 (0.010): 0.030*"book" + 0.027*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:26,541 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:26,541 : INFO : topic diff=0.073473, rho=0.156835
+2020-01-05 11:33:26,542 : INFO : PROGRESS: pass 36, at document #2000/9310
+2020-01-05 11:33:26,968 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:26,969 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:26,969 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:26,969 : INFO : topic diff=0.066851, rho=0.154941
+2020-01-05 11:33:26,969 : INFO : PROGRESS: pass 36, at document #4000/9310
+2020-01-05 11:33:27,415 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:27,416 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:27,416 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:27,416 : INFO : topic diff=0.067280, rho=0.154941
+2020-01-05 11:33:27,416 : INFO : PROGRESS: pass 36, at document #6000/9310
+2020-01-05 11:33:27,875 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:27,876 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:27,876 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:27,876 : INFO : topic diff=0.068445, rho=0.154941
+2020-01-05 11:33:27,876 : INFO : PROGRESS: pass 36, at document #8000/9310
+2020-01-05 11:33:28,331 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:28,332 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:28,332 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:28,332 : INFO : topic diff=0.066126, rho=0.154941
+2020-01-05 11:33:28,824 : INFO : -8.010 per-word bound, 257.8 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:28,824 : INFO : PROGRESS: pass 36, at document #9310/9310
+2020-01-05 11:33:29,105 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:29,106 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:29,106 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:29,106 : INFO : topic diff=0.072373, rho=0.154941
+2020-01-05 11:33:29,106 : INFO : PROGRESS: pass 37, at document #2000/9310
+2020-01-05 11:33:29,534 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:29,535 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:29,535 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:29,535 : INFO : topic diff=0.065861, rho=0.153114
+2020-01-05 11:33:29,535 : INFO : PROGRESS: pass 37, at document #4000/9310
+2020-01-05 11:33:29,986 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:29,987 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:29,987 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:29,987 : INFO : topic diff=0.066293, rho=0.153114
+2020-01-05 11:33:29,987 : INFO : PROGRESS: pass 37, at document #6000/9310
+2020-01-05 11:33:30,457 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:30,458 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:30,458 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:30,458 : INFO : topic diff=0.067445, rho=0.153114
+2020-01-05 11:33:30,458 : INFO : PROGRESS: pass 37, at document #8000/9310
+2020-01-05 11:33:30,916 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:30,917 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:30,917 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:30,917 : INFO : topic diff=0.065159, rho=0.153114
+2020-01-05 11:33:31,397 : INFO : -8.010 per-word bound, 257.8 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:31,397 : INFO : PROGRESS: pass 37, at document #9310/9310
+2020-01-05 11:33:31,681 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:31,682 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:31,682 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:31,682 : INFO : topic diff=0.071299, rho=0.153114
+2020-01-05 11:33:31,682 : INFO : PROGRESS: pass 38, at document #2000/9310
+2020-01-05 11:33:32,112 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:32,113 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:32,114 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:32,114 : INFO : topic diff=0.064844, rho=0.151350
+2020-01-05 11:33:32,114 : INFO : PROGRESS: pass 38, at document #4000/9310
+2020-01-05 11:33:32,559 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:32,559 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:32,560 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:32,560 : INFO : topic diff=0.065236, rho=0.151350
+2020-01-05 11:33:32,560 : INFO : PROGRESS: pass 38, at document #6000/9310
+2020-01-05 11:33:33,015 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:33,016 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:33,016 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:33,016 : INFO : topic diff=0.066346, rho=0.151350
+2020-01-05 11:33:33,017 : INFO : PROGRESS: pass 38, at document #8000/9310
+2020-01-05 11:33:33,478 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:33,479 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:33,479 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:33,479 : INFO : topic diff=0.064046, rho=0.151350
+2020-01-05 11:33:33,960 : INFO : -8.010 per-word bound, 257.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:33,960 : INFO : PROGRESS: pass 38, at document #9310/9310
+2020-01-05 11:33:34,245 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:34,245 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:34,246 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:34,246 : INFO : topic diff=0.070068, rho=0.151350
+2020-01-05 11:33:34,246 : INFO : PROGRESS: pass 39, at document #2000/9310
+2020-01-05 11:33:34,671 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:34,672 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:34,672 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:34,672 : INFO : topic diff=0.063649, rho=0.149646
+2020-01-05 11:33:34,672 : INFO : PROGRESS: pass 39, at document #4000/9310
+2020-01-05 11:33:35,117 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:35,118 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:35,118 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:35,118 : INFO : topic diff=0.063972, rho=0.149646
+2020-01-05 11:33:35,118 : INFO : PROGRESS: pass 39, at document #6000/9310
+2020-01-05 11:33:35,574 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:35,575 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:35,575 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:35,575 : INFO : topic diff=0.065059, rho=0.149646
+2020-01-05 11:33:35,575 : INFO : PROGRESS: pass 39, at document #8000/9310
+2020-01-05 11:33:36,024 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:36,024 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:36,025 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:36,025 : INFO : topic diff=0.062761, rho=0.149646
+2020-01-05 11:33:36,508 : INFO : -8.010 per-word bound, 257.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:36,508 : INFO : PROGRESS: pass 39, at document #9310/9310
+2020-01-05 11:33:36,789 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:36,790 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:36,790 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:36,791 : INFO : topic diff=0.068686, rho=0.149646
+2020-01-05 11:33:36,791 : INFO : PROGRESS: pass 40, at document #2000/9310
+2020-01-05 11:33:37,212 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:37,213 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:37,214 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:37,214 : INFO : topic diff=0.062333, rho=0.147998
+2020-01-05 11:33:37,214 : INFO : PROGRESS: pass 40, at document #4000/9310
+2020-01-05 11:33:37,654 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:37,655 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:37,655 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:37,655 : INFO : topic diff=0.062634, rho=0.147998
+2020-01-05 11:33:37,655 : INFO : PROGRESS: pass 40, at document #6000/9310
+2020-01-05 11:33:38,134 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:38,135 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:38,135 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:38,135 : INFO : topic diff=0.063754, rho=0.147998
+2020-01-05 11:33:38,135 : INFO : PROGRESS: pass 40, at document #8000/9310
+2020-01-05 11:33:38,591 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:38,592 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:38,593 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:38,593 : INFO : topic diff=0.061488, rho=0.147998
+2020-01-05 11:33:39,080 : INFO : -8.009 per-word bound, 257.7 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:39,080 : INFO : PROGRESS: pass 40, at document #9310/9310
+2020-01-05 11:33:39,360 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:39,361 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:39,361 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:39,361 : INFO : topic diff=0.067334, rho=0.147998
+2020-01-05 11:33:39,361 : INFO : PROGRESS: pass 41, at document #2000/9310
+2020-01-05 11:33:39,784 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:39,785 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"cover"
+2020-01-05 11:33:39,785 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.009*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:39,785 : INFO : topic diff=0.061090, rho=0.146403
+2020-01-05 11:33:39,785 : INFO : PROGRESS: pass 41, at document #4000/9310
+2020-01-05 11:33:40,241 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:40,242 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:40,242 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:40,242 : INFO : topic diff=0.061413, rho=0.146403
+2020-01-05 11:33:40,242 : INFO : PROGRESS: pass 41, at document #6000/9310
+2020-01-05 11:33:40,803 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:40,804 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:40,804 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:40,804 : INFO : topic diff=0.062535, rho=0.146403
+2020-01-05 11:33:40,805 : INFO : PROGRESS: pass 41, at document #8000/9310
+2020-01-05 11:33:41,292 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:41,293 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:41,293 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:41,293 : INFO : topic diff=0.060315, rho=0.146403
+2020-01-05 11:33:41,789 : INFO : -8.009 per-word bound, 257.6 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:41,790 : INFO : PROGRESS: pass 41, at document #9310/9310
+2020-01-05 11:33:42,090 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:42,091 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:42,091 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:42,091 : INFO : topic diff=0.066084, rho=0.146403
+2020-01-05 11:33:42,091 : INFO : PROGRESS: pass 42, at document #2000/9310
+2020-01-05 11:33:42,526 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:42,527 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:42,528 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:42,528 : INFO : topic diff=0.059969, rho=0.144859
+2020-01-05 11:33:42,528 : INFO : PROGRESS: pass 42, at document #4000/9310
+2020-01-05 11:33:42,979 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:42,980 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:42,980 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:42,980 : INFO : topic diff=0.060311, rho=0.144859
+2020-01-05 11:33:42,981 : INFO : PROGRESS: pass 42, at document #6000/9310
+2020-01-05 11:33:43,447 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:43,448 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:43,448 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:43,448 : INFO : topic diff=0.061423, rho=0.144859
+2020-01-05 11:33:43,448 : INFO : PROGRESS: pass 42, at document #8000/9310
+2020-01-05 11:33:43,914 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:43,915 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:43,915 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:43,915 : INFO : topic diff=0.059267, rho=0.144859
+2020-01-05 11:33:44,400 : INFO : -8.008 per-word bound, 257.5 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:44,400 : INFO : PROGRESS: pass 42, at document #9310/9310
+2020-01-05 11:33:44,686 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:44,687 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:44,687 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:44,687 : INFO : topic diff=0.064988, rho=0.144859
+2020-01-05 11:33:44,687 : INFO : PROGRESS: pass 43, at document #2000/9310
+2020-01-05 11:33:45,108 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:45,109 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:45,109 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:45,109 : INFO : topic diff=0.058970, rho=0.143363
+2020-01-05 11:33:45,109 : INFO : PROGRESS: pass 43, at document #4000/9310
+2020-01-05 11:33:45,555 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:45,556 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:45,556 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:45,556 : INFO : topic diff=0.059305, rho=0.143363
+2020-01-05 11:33:45,556 : INFO : PROGRESS: pass 43, at document #6000/9310
+2020-01-05 11:33:46,039 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:46,039 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:46,040 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:46,040 : INFO : topic diff=0.060439, rho=0.143363
+2020-01-05 11:33:46,040 : INFO : PROGRESS: pass 43, at document #8000/9310
+2020-01-05 11:33:46,519 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:46,520 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:46,520 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:46,520 : INFO : topic diff=0.058327, rho=0.143363
+2020-01-05 11:33:47,040 : INFO : -8.008 per-word bound, 257.5 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:47,040 : INFO : PROGRESS: pass 43, at document #9310/9310
+2020-01-05 11:33:47,322 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:47,323 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:47,323 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:47,323 : INFO : topic diff=0.064025, rho=0.143363
+2020-01-05 11:33:47,323 : INFO : PROGRESS: pass 44, at document #2000/9310
+2020-01-05 11:33:47,745 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:47,746 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:47,746 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:47,746 : INFO : topic diff=0.058076, rho=0.141912
+2020-01-05 11:33:47,746 : INFO : PROGRESS: pass 44, at document #4000/9310
+2020-01-05 11:33:48,191 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:48,192 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:48,192 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:48,192 : INFO : topic diff=0.058431, rho=0.141912
+2020-01-05 11:33:48,193 : INFO : PROGRESS: pass 44, at document #6000/9310
+2020-01-05 11:33:48,646 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:48,647 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:48,647 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:48,647 : INFO : topic diff=0.059606, rho=0.141912
+2020-01-05 11:33:48,647 : INFO : PROGRESS: pass 44, at document #8000/9310
+2020-01-05 11:33:49,091 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:49,092 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:49,092 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:49,092 : INFO : topic diff=0.057549, rho=0.141912
+2020-01-05 11:33:49,598 : INFO : -8.008 per-word bound, 257.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:49,598 : INFO : PROGRESS: pass 44, at document #9310/9310
+2020-01-05 11:33:49,882 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:49,883 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:49,883 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:49,884 : INFO : topic diff=0.063243, rho=0.141912
+2020-01-05 11:33:49,884 : INFO : PROGRESS: pass 45, at document #2000/9310
+2020-01-05 11:33:50,303 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:50,304 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:50,304 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:50,304 : INFO : topic diff=0.057416, rho=0.140504
+2020-01-05 11:33:50,305 : INFO : PROGRESS: pass 45, at document #4000/9310
+2020-01-05 11:33:50,750 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:50,751 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:50,751 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:50,751 : INFO : topic diff=0.057786, rho=0.140504
+2020-01-05 11:33:50,751 : INFO : PROGRESS: pass 45, at document #6000/9310
+2020-01-05 11:33:51,202 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:51,203 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:51,203 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:51,203 : INFO : topic diff=0.059007, rho=0.140504
+2020-01-05 11:33:51,204 : INFO : PROGRESS: pass 45, at document #8000/9310
+2020-01-05 11:33:51,652 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:51,653 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:51,653 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:51,654 : INFO : topic diff=0.057016, rho=0.140504
+2020-01-05 11:33:52,137 : INFO : -8.008 per-word bound, 257.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:52,137 : INFO : PROGRESS: pass 45, at document #9310/9310
+2020-01-05 11:33:52,422 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:52,423 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:52,423 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:52,423 : INFO : topic diff=0.062696, rho=0.140504
+2020-01-05 11:33:52,423 : INFO : PROGRESS: pass 46, at document #2000/9310
+2020-01-05 11:33:52,845 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:52,845 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:52,846 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:52,846 : INFO : topic diff=0.057002, rho=0.139137
+2020-01-05 11:33:52,846 : INFO : PROGRESS: pass 46, at document #4000/9310
+2020-01-05 11:33:53,293 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:53,294 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:53,294 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:53,294 : INFO : topic diff=0.057392, rho=0.139137
+2020-01-05 11:33:53,294 : INFO : PROGRESS: pass 46, at document #6000/9310
+2020-01-05 11:33:53,754 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:53,755 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:53,755 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:53,756 : INFO : topic diff=0.058660, rho=0.139137
+2020-01-05 11:33:53,756 : INFO : PROGRESS: pass 46, at document #8000/9310
+2020-01-05 11:33:54,228 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:54,229 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:54,229 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:54,229 : INFO : topic diff=0.056748, rho=0.139137
+2020-01-05 11:33:54,747 : INFO : -8.008 per-word bound, 257.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:54,747 : INFO : PROGRESS: pass 46, at document #9310/9310
+2020-01-05 11:33:55,166 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:55,167 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:55,168 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:55,168 : INFO : topic diff=0.062373, rho=0.139137
+2020-01-05 11:33:55,168 : INFO : PROGRESS: pass 47, at document #2000/9310
+2020-01-05 11:33:55,673 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:55,674 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:55,674 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:55,674 : INFO : topic diff=0.056802, rho=0.137810
+2020-01-05 11:33:55,675 : INFO : PROGRESS: pass 47, at document #4000/9310
+2020-01-05 11:33:56,176 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:56,177 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:56,177 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:56,177 : INFO : topic diff=0.057238, rho=0.137810
+2020-01-05 11:33:56,178 : INFO : PROGRESS: pass 47, at document #6000/9310
+2020-01-05 11:33:56,666 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:56,667 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:56,667 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:56,668 : INFO : topic diff=0.058544, rho=0.137810
+2020-01-05 11:33:56,668 : INFO : PROGRESS: pass 47, at document #8000/9310
+2020-01-05 11:33:57,158 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:57,159 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:57,159 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:57,159 : INFO : topic diff=0.056688, rho=0.137810
+2020-01-05 11:33:57,686 : INFO : -8.008 per-word bound, 257.4 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:33:57,686 : INFO : PROGRESS: pass 47, at document #9310/9310
+2020-01-05 11:33:57,975 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:33:57,976 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:57,976 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:57,976 : INFO : topic diff=0.062255, rho=0.137810
+2020-01-05 11:33:57,976 : INFO : PROGRESS: pass 48, at document #2000/9310
+2020-01-05 11:33:58,422 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:58,423 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:58,423 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:58,423 : INFO : topic diff=0.056796, rho=0.136520
+2020-01-05 11:33:58,423 : INFO : PROGRESS: pass 48, at document #4000/9310
+2020-01-05 11:33:58,907 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:58,908 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:58,908 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:58,908 : INFO : topic diff=0.057275, rho=0.136520
+2020-01-05 11:33:58,909 : INFO : PROGRESS: pass 48, at document #6000/9310
+2020-01-05 11:33:59,390 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:59,390 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:59,391 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:33:59,391 : INFO : topic diff=0.058574, rho=0.136520
+2020-01-05 11:33:59,391 : INFO : PROGRESS: pass 48, at document #8000/9310
+2020-01-05 11:33:59,877 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:33:59,878 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:33:59,878 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:33:59,878 : INFO : topic diff=0.056731, rho=0.136520
+2020-01-05 11:34:00,388 : INFO : -8.008 per-word bound, 257.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:34:00,389 : INFO : PROGRESS: pass 48, at document #9310/9310
+2020-01-05 11:34:00,685 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:34:00,686 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:00,686 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:34:00,686 : INFO : topic diff=0.062235, rho=0.136520
+2020-01-05 11:34:00,686 : INFO : PROGRESS: pass 49, at document #2000/9310
+2020-01-05 11:34:01,114 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:34:01,115 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:01,115 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:34:01,115 : INFO : topic diff=0.056838, rho=0.135265
+2020-01-05 11:34:01,115 : INFO : PROGRESS: pass 49, at document #4000/9310
+2020-01-05 11:34:01,593 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:34:01,594 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.013*"design" + 0.012*"digital" + 0.012*"sign" + 0.011*"edition" + 0.009*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:01,594 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"credit" + 0.006*"cd" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:34:01,594 : INFO : topic diff=0.057317, rho=0.135265
+2020-01-05 11:34:01,594 : INFO : PROGRESS: pass 49, at document #6000/9310
+2020-01-05 11:34:02,130 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:34:02,131 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.011*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:02,131 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.007*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"show" + 0.006*"digital" + 0.005*"digital_download"
+2020-01-05 11:34:02,131 : INFO : topic diff=0.058563, rho=0.135265
+2020-01-05 11:34:02,131 : INFO : PROGRESS: pass 49, at document #8000/9310
+2020-01-05 11:34:02,692 : INFO : merging changes from 2000 documents into a model of 9310 documents
+2020-01-05 11:34:02,693 : INFO : topic #0 (0.010): 0.030*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:02,693 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.007*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:34:02,694 : INFO : topic diff=0.056706, rho=0.135265
+2020-01-05 11:34:03,199 : INFO : -8.007 per-word bound, 257.3 perplexity estimate based on a held-out corpus of 1310 documents with 127822 words
+2020-01-05 11:34:03,199 : INFO : PROGRESS: pass 49, at document #9310/9310
+2020-01-05 11:34:03,480 : INFO : merging changes from 1310 documents into a model of 9310 documents
+2020-01-05 11:34:03,481 : INFO : topic #0 (0.010): 0.029*"book" + 0.026*"print" + 0.012*"design" + 0.012*"sign" + 0.012*"digital" + 0.011*"edition" + 0.010*"pdf" + 0.009*"sticker" + 0.008*"pack" + 0.008*"art"
+2020-01-05 11:34:03,481 : INFO : topic #1 (0.010): 0.013*"thank" + 0.012*"sign" + 0.010*"shirt" + 0.008*"album" + 0.007*"film" + 0.006*"cd" + 0.006*"credit" + 0.006*"digital" + 0.006*"show" + 0.005*"digital_download"
+2020-01-05 11:34:03,481 : INFO : topic diff=0.062111, rho=0.135265
+2020-01-05 11:34:03,482 : INFO : saving LdaState object under lda_train_2.model.state, separately None
+2020-01-05 11:34:03,485 : INFO : saved lda_train_2.model.state
+2020-01-05 11:34:03,488 : INFO : saving LdaModel object under lda_train_2.model, separately ['expElogbeta', 'sstats']
+2020-01-05 11:34:03,488 : INFO : storing np array 'expElogbeta' to lda_train_2.model.expElogbeta.npy
+2020-01-05 11:34:03,489 : INFO : not storing attribute dispatcher
+2020-01-05 11:34:03,489 : INFO : not storing attribute id2word
+2020-01-05 11:34:03,489 : INFO : not storing attribute state
+2020-01-05 11:34:03,489 : INFO : saved lda_train_2.model
+2020-01-05 11:34:03,493 : INFO : loading LdaModel object from ./lda_train_2.model
+2020-01-05 11:34:03,495 : INFO : loading expElogbeta from ./lda_train_2.model.expElogbeta.npy with mmap=None
+2020-01-05 11:34:03,496 : INFO : setting ignored attribute dispatcher to None
+2020-01-05 11:34:03,496 : INFO : setting ignored attribute id2word to None
+2020-01-05 11:34:03,496 : INFO : setting ignored attribute state to None
+2020-01-05 11:34:03,496 : INFO : loaded ./lda_train_2.model
+2020-01-05 11:34:03,496 : INFO : loading LdaState object from ./lda_train_2.model.state
+2020-01-05 11:34:03,496 : INFO : loaded ./lda_train_2.model.state
+2020-01-06 21:00:36,196 : INFO : creating matrix with 9584 documents and 128237 features
+2020-01-06 21:04:22,697 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2020-01-06 21:04:28,298 : INFO : built Dictionary(128237 unique tokens: ['ambiguity', 'angela', 'aprox', 'art', 'artist']...) from 9584 documents (total 3648792 corpus positions)
+2020-01-06 21:04:28,298 : INFO : creating matrix with 128237 documents and 128237 features
+2020-01-06 21:07:07,020 : INFO : collecting all words and their counts
+2020-01-06 21:07:07,020 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2020-01-06 21:07:07,728 : INFO : collected 128237 word types from a corpus of 3648792 raw words and 9584 sentences
+2020-01-06 21:07:07,728 : INFO : Loading a fresh vocabulary
+2020-01-06 21:07:11,024 : INFO : effective_min_count=1 retains 128237 unique words (100% of original 128237, drops 0)
+2020-01-06 21:07:11,024 : INFO : effective_min_count=1 leaves 3648792 word corpus (100% of original 3648792, drops 0)
+2020-01-06 21:07:11,384 : INFO : deleting the raw counts dictionary of 128237 items
+2020-01-06 21:07:11,386 : INFO : sample=0.001 downsamples 26 most-common words
+2020-01-06 21:07:11,386 : INFO : downsampling leaves estimated 3561830 word corpus (97.6% of prior 3648792)
+2020-01-06 21:07:11,735 : INFO : estimated required memory for 128237 words and 20 dimensions: 84636420 bytes
+2020-01-06 21:07:11,735 : INFO : resetting layer weights
+2020-01-06 21:07:32,507 : INFO : training model with 3 workers on 128237 vocabulary and 20 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+2020-01-06 21:08:11,778 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2020-01-06 21:08:11,779 : INFO : built Dictionary(12 unique tokens: ['computer', 'human', 'interface', 'response', 'survey']...) from 9 documents (total 29 corpus positions)
