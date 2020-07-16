@@ -15,5 +15,10 @@ A project that extrapolates **three** key factors: **Enticement**, **Experience*
 ### Project Demo
 [![Watch the Demo](https://github.com/arvindcheenu/Deep-Learning-for-Risk-Analysis-of-Crowdfunding-Campaigns/blob/master/demo-screenshot.png?raw=true)](https://github.com/arvindcheenu/Deep-Learning-for-Risk-Analysis-of-Crowdfunding-Campaigns/blob/master/project-demo.mp4?raw=true)
 
+### Todo
+- [ ] Host demo on a video platform
+- [ ] Cleanup and Reorganise Code
+- [ ] Elaborate on the workings in the notebooks
+
 ### Suggested Citation
 *Srinivasan, Arvind and P, Akilandeswari, An Ensemble Deep Learning Approach to Explore the Impact of Enticement, Engagement and Experience in Reward Based Crowdfunding (May 31, 2020). Available at SSRN: http://dx.doi.org/10.2139/ssrn.3615176*
